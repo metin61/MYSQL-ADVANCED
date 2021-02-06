@@ -14,6 +14,14 @@ WHERE student_id = 2;
 UPDATE studenten2
 SET klas = "9A", klas = "9C"
 WHERE student_id IN (8,4);
+
+UPDATE studenten2
+SET klas = '9C'
+WHERE voornaam = 'Mohammed';
+
+UPDATE studenten2
+SET klas = '9A'
+WHERE voornaam = 'Jan';
 -- Opdracht 5
 UPDATE studenten2
 SET voornaam = "Johannah"

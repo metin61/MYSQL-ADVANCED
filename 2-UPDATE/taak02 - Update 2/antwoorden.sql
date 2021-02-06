@@ -11,6 +11,7 @@ WHERE student_id >7;
 UPDATE studenten2
 SET woonplaats="Amsterdan"
 WHERE student_id <=2 OR ">7"; 
+
 -- Opdracht 4
 UPDATE studenten2
 SET woonplaats="Uithoorn"
